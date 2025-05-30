@@ -40,7 +40,6 @@ func resourceApiCredentials() *schema.Resource {
 			},
 			"is_disabled": {
 				Type:        schema.TypeBool,
-				Computed:    true,
 				Optional:    true,
 				Default:     false,
 				Description: "Whether the credential is disabled",
