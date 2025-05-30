@@ -2,7 +2,7 @@
 page_title: "looker_api_credentials Resource - terraform-provider-looker"
 subcategory: ""
 description: |-
-Manage API credentials for a Looker user.
+  Manage API credentials for a Looker user.
 
 ---
 # looker_api_credentials (Resource)
@@ -36,7 +36,7 @@ resource "looker_api_credentials" "example" {
 - `user_id` (Number) ID of the user owning the API credential
 - `type` (String) Type of API credential (e.g., api3)
 
-###Optional
+### Optional
 - `is_disabled` (Boolean) Whether the credential is disabled. Changing this forces resource recreation.
 ### Computed
 - `client_id` (String) Client ID of the API credential
